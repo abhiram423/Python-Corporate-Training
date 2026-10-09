@@ -33,3 +33,27 @@ total=0
 for salary in salaries:
     total= total+salary
 print(total)
+
+class students():
+    def __init__(self):
+        print('Cisco apprentice')
+    def m1(word):
+        print('hello world')
+    @classmethod
+    def m2(cls):
+        print('class method')
+    @staticmethod
+    def m3():
+        print('static method')
+
+m=students()
+m.m1()
+m.m2()
+m.m3()
+students.m2()
+students.m3()
+students.m1("df")
+
+
+
+
